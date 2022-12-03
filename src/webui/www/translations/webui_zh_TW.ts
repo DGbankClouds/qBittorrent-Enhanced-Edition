@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS language="zh_TW" version="2.1">
+<TS version="2.1" language="zh_TW">
 <context>
     <name>AboutDlg</name>
     <message>
@@ -144,10 +144,6 @@
         <translation>無法儲存程式偏好設定，qBittorrent 可能無法連線。</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC：#qbittorrent 在 Freenode</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>未知</translation>
     </message>
@@ -158,10 +154,6 @@
     <message>
         <source>Seeding time limit must be between 0 and 525600 minutes.</source>
         <translation>做種時間限制必須在 0 到 525600 分鐘之間。</translation>
-    </message>
-    <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">連入的連線埠號必須在 1 到 65535 之間。</translation>
     </message>
     <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
@@ -186,10 +178,6 @@
     <message>
         <source>Login</source>
         <translation>登入</translation>
-    </message>
-    <message>
-        <source>Original authors</source>
-        <translation>原始作者</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,7 +357,11 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
-        <translation type="unfinished" />
+        <translation>用於連入連線的埠號必須介於 0 至 65535 之間。</translation>
+    </message>
+    <message>
+        <source>Original author</source>
+        <translation>原始作者</translation>
     </message>
 </context>
 <context>
@@ -579,6 +571,10 @@
         <source>RSS</source>
         <translation>RSS</translation>
     </message>
+    <message>
+        <source>Filters Sidebar</source>
+        <translation type="vanished">過濾條件側邊欄</translation>
+    </message>
 </context>
 <context>
     <name>OptionsDialog</name>
@@ -725,10 +721,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation>使用從路由器轉送的 UPnP／NAT-PMP 連接埠</translation>
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">每次啟動時使用不同的埠</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1058,7 +1050,7 @@
     </message>
     <message>
         <source>Enable Host header validation</source>
-        <translation>啟用主機檔頭驗證</translation>
+        <translation>啟用主機標頭驗證</translation>
     </message>
     <message>
         <source>Security</source>
@@ -1193,10 +1185,6 @@
         <translation>連出埠（最小）[0：停用]：</translation>
     </message>
     <message>
-        <source>IP Address to report to trackers (requires restart):</source>
-        <translation>回報至追蹤者的 IP 位置（需要重新啟動）：</translation>
-    </message>
-    <message>
         <source>Recheck torrents on completion:</source>
         <translation>完成後重新檢查 torrent：</translation>
     </message>
@@ -1318,7 +1306,7 @@
     </message>
     <message>
         <source>Header: value pairs, one per line</source>
-        <translation>標投：鍵值對，一行一個</translation>
+        <translation>標頭：鍵值對，一行一個</translation>
     </message>
     <message>
         <source>Add custom HTTP headers</source>
@@ -1480,6 +1468,34 @@
         <source>%I: Info hash v1</source>
         <translation>%I：資訊雜湊值 v1</translation>
     </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation>向追蹤器回報的 IP 位置（需要重新啟動）：</translation>
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation>設定為 0 讓您的系統挑選未使用的連接埠</translation>
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation>伺服器端請求偽造 (SSRF) 緩解：</translation>
+    </message>
+    <message>
+        <source>Disk queue size:</source>
+        <translation type="vanished">磁碟佇列大小：</translation>
+    </message>
+    <message>
+        <source>Log performance warnings</source>
+        <translation type="vanished">記錄效能警告</translation>
+    </message>
+    <message>
+        <source>Maximum outstanding requests to a single peer:</source>
+        <translation type="vanished">對單個 peer 的最多未完成請求：</translation>
+    </message>
+    <message>
+        <source>Max active checking torrents:</source>
+        <translation type="vanished">最大活躍的正在檢查 torrent 數：</translation>
+    </message>
 </context>
 <context>
     <name>PeerListWidget</name>
@@ -1552,12 +1568,12 @@
         <translation>複製 IP:埠</translation>
     </message>
     <message>
-        <source>Add a new peer...</source>
-        <translation>新增下載者……</translation>
-    </message>
-    <message>
         <source>Country/Region</source>
         <translation>國家／區域</translation>
+    </message>
+    <message>
+        <source>Add peers...</source>
+        <translation>新增下載者……</translation>
     </message>
 </context>
 <context>
@@ -1776,6 +1792,10 @@
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
+    <message>
+        <source>Progress:</source>
+        <translation>進度：</translation>
+    </message>
 </context>
 <context>
     <name>ScanFoldersModel</name>
@@ -1986,11 +2006,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>正在檢查 (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>正在檢查 (0)</translation>
     </message>
 </context>
 <context>
@@ -2248,8 +2268,12 @@
         <translation>進度</translation>
     </message>
     <message>
+        <source>Total Size</source>
+        <translation type="vanished">總大小</translation>
+    </message>
+    <message>
         <source>Size</source>
-        <translation>大小</translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -2336,7 +2360,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[F] 正在下載詮釋資</translation>
     </message>
 </context>
 <context>
@@ -2744,10 +2768,6 @@
         <translation>搜尋：</translation>
     </message>
     <message>
-        <source>Results (showing</source>
-        <translation>搜尋結果 (顯示</translation>
-    </message>
-    <message>
         <source>Filter</source>
         <translation>過濾器</translation>
     </message>
@@ -2778,6 +2798,14 @@
     <message>
         <source>to</source>
         <translation>到</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <source>showing</source>
+        <translation>正在顯示</translation>
     </message>
 </context>
 <context>
@@ -3005,16 +3033,28 @@
         <translation>國籍：</translation>
     </message>
     <message>
-        <source>Author</source>
-        <translation>作者</translation>
-    </message>
-    <message>
         <source>Software Used</source>
         <translation>使用的軟體</translation>
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>由 DB-IP 提供，用於解析 peer 的所在國家的免費 IP 對國家 Lite 資料庫。此資料庫以創用 CC 姓名標示 4.0 國際授權條款授權</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation>作者</translation>
+    </message>
+    <message>
+        <source>France</source>
+        <translation>法國</translation>
+    </message>
+    <message>
+        <source>qBittorrent Mascot</source>
+        <translation>qBittorrent 吉祥物</translation>
+    </message>
+    <message>
+        <source>qBittorrent icon</source>
+        <translation>qBittorrent 圖示</translation>
     </message>
 </context>
 <context>
@@ -3285,7 +3325,7 @@
     </message>
     <message>
         <source>Are you sure you want to remove the selected download rules?</source>
-        <translation>您確定要移除所選的下載原則嗎？</translation>
+        <translation>您確定要移除所選的下載規則嗎？</translation>
     </message>
     <message>
         <source>Use global settings</source>
@@ -3317,7 +3357,7 @@
     </message>
     <message>
         <source>Rule deletion confirmation</source>
-        <translation>原則刪除確認</translation>
+        <translation>規則刪除確認</translation>
     </message>
     <message>
         <source>Last Match: %1 days ago</source>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS language="pl" version="2.1">
+<TS version="2.1" language="pl">
 <context>
     <name>AboutDlg</name>
     <message>
@@ -144,10 +144,6 @@
         <translation>Nie można zapisać ustawień, prawdopodobnie qBittorrent jest nieosiągalny.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent w sieci Freenode</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Nieznany</translation>
     </message>
@@ -158,10 +154,6 @@
     <message>
         <source>Seeding time limit must be between 0 and 525600 minutes.</source>
         <translation>Limit czasu seedowania musi zawierać się w przedziale między 0 a 525600 minut.</translation>
-    </message>
-    <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">Port, na którym nasłuchiwane są połączenia przychodzące, musi być pomiędzy 1 a 65535.</translation>
     </message>
     <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
@@ -186,10 +178,6 @@
     <message>
         <source>Login</source>
         <translation>Login</translation>
-    </message>
-    <message>
-        <source>Original authors</source>
-        <translation>Pierwotni autorzy</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,7 +357,11 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
-        <translation type="unfinished" />
+        <translation>Port, na którym nasłuchiwane są połączenia przychodzące, musi być pomiędzy 0 a 65535.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
+        <translation>Pierwotny autor</translation>
     </message>
 </context>
 <context>
@@ -579,6 +571,10 @@
         <source>RSS</source>
         <translation>RSS</translation>
     </message>
+    <message>
+        <source>Filters Sidebar</source>
+        <translation type="vanished">Pasek boczny filtrów</translation>
+    </message>
 </context>
 <context>
     <name>OptionsDialog</name>
@@ -725,10 +721,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation>Używaj UPnP / NAT-PMP do przekierowania portów na moim routerze</translation>
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Używaj innego portu przy każdym uruchomieniu</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1193,10 +1185,6 @@
         <translation>Porty wychodzące (min.) [0: wyłączone]:</translation>
     </message>
     <message>
-        <source>IP Address to report to trackers (requires restart):</source>
-        <translation>Adres IP zgłaszany trackerom (wymaga ponownego uruchomienia):</translation>
-    </message>
-    <message>
         <source>Recheck torrents on completion:</source>
         <translation>Sprawdzaj torrenty po zakończeniu:</translation>
     </message>
@@ -1480,6 +1468,34 @@
         <source>%I: Info hash v1</source>
         <translation>%I: Info hash v1</translation>
     </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation>Adres IP zgłoszony trackerom (wymaga ponownego uruchomienia):</translation>
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation>Ustaw na 0, aby system mógł wybrać nieużywany port</translation>
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation>Zapobieganie fałszowaniu żądań po stronie serwera (SSRF):</translation>
+    </message>
+    <message>
+        <source>Disk queue size:</source>
+        <translation type="vanished">Rozmiar kolejki dysku:</translation>
+    </message>
+    <message>
+        <source>Log performance warnings</source>
+        <translation type="vanished">Rejestruj ostrzeżenia dotyczące wydajności</translation>
+    </message>
+    <message>
+        <source>Maximum outstanding requests to a single peer:</source>
+        <translation type="vanished">Maksymalne zaległe żądania do pojedynczego partnera:</translation>
+    </message>
+    <message>
+        <source>Max active checking torrents:</source>
+        <translation type="vanished">Maksimum aktywnego sprawdzania torrentów:</translation>
+    </message>
 </context>
 <context>
     <name>PeerListWidget</name>
@@ -1552,12 +1568,12 @@
         <translation>Kopiuj IP:port</translation>
     </message>
     <message>
-        <source>Add a new peer...</source>
-        <translation>Dodaj nowego partnera...</translation>
-    </message>
-    <message>
         <source>Country/Region</source>
         <translation>Kraj/Region</translation>
+    </message>
+    <message>
+        <source>Add peers...</source>
+        <translation>Dodaj partnerów...</translation>
     </message>
 </context>
 <context>
@@ -1776,6 +1792,10 @@
         <source>N/A</source>
         <translation>Nie dotyczy</translation>
     </message>
+    <message>
+        <source>Progress:</source>
+        <translation>Postęp:</translation>
+    </message>
 </context>
 <context>
     <name>ScanFoldersModel</name>
@@ -1986,11 +2006,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Sprawdzanie (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Sprawdzanie (0)</translation>
     </message>
 </context>
 <context>
@@ -2248,8 +2268,12 @@
         <translation>Postęp</translation>
     </message>
     <message>
+        <source>Total Size</source>
+        <translation type="vanished">Całkowity rozmiar</translation>
+    </message>
+    <message>
         <source>Size</source>
-        <translation>Rozmiar</translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -2336,7 +2360,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[W] Pobieranie metadanych</translation>
     </message>
 </context>
 <context>
@@ -2744,10 +2768,6 @@
         <translation>Wyszukaj w:</translation>
     </message>
     <message>
-        <source>Results (showing</source>
-        <translation>Wyniki (pokazanie</translation>
-    </message>
-    <message>
         <source>Filter</source>
         <translation>Filtr</translation>
     </message>
@@ -2778,6 +2798,14 @@
     <message>
         <source>to</source>
         <translation>do</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation>Wyniki</translation>
+    </message>
+    <message>
+        <source>showing</source>
+        <translation>pokazywanie</translation>
     </message>
 </context>
 <context>
@@ -3005,16 +3033,28 @@
         <translation>Narodowość:</translation>
     </message>
     <message>
-        <source>Author</source>
-        <translation>Autor</translation>
-    </message>
-    <message>
         <source>Software Used</source>
         <translation>Użyte oprogramowanie</translation>
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>Bezpłatna baza danych IP to Country Lite firmy DB-IP służy do uzgadniania krajów partnerów. Baza danych jest licencjonowana na podstawie licencji Creative Commons Attribution 4.0 International</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation>Autorzy</translation>
+    </message>
+    <message>
+        <source>France</source>
+        <translation>Francja</translation>
+    </message>
+    <message>
+        <source>qBittorrent Mascot</source>
+        <translation>Maskotka qBittorrent</translation>
+    </message>
+    <message>
+        <source>qBittorrent icon</source>
+        <translation>Ikona qBittorrent</translation>
     </message>
 </context>
 <context>

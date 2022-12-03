@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS language="nb" version="2.1">
+<TS version="2.1" language="nb">
 <context>
     <name>AboutDlg</name>
     <message>
@@ -144,10 +144,6 @@
         <translation>Ikke i stand til å lagre programinnstillinger, qBittorrent er sannsynligvis unåelig.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent på Freenode</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Ukjent</translation>
     </message>
@@ -158,10 +154,6 @@
     <message>
         <source>Seeding time limit must be between 0 and 525600 minutes.</source>
         <translation>Delingstidgrensen må være mellom 0 og 525600 minutter.</translation>
-    </message>
-    <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">Porten som brukes for innkommende tilkoblinger må være mellom 1 og 65535.</translation>
     </message>
     <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
@@ -186,10 +178,6 @@
     <message>
         <source>Login</source>
         <translation>Logg inn</translation>
-    </message>
-    <message>
-        <source>Original authors</source>
-        <translation>Opphavspersoner</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,7 +357,11 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
-        <translation type="unfinished" />
+        <translation>Porten som brukes for innkommende tilkoblinger må være mellom 0 og 65535.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
+        <translation>Opprinnelig opphavsperson</translation>
     </message>
 </context>
 <context>
@@ -579,6 +571,10 @@
         <source>RSS</source>
         <translation>RSS</translation>
     </message>
+    <message>
+        <source>Filters Sidebar</source>
+        <translation type="vanished">Sidestolpe med filter</translation>
+    </message>
 </context>
 <context>
     <name>OptionsDialog</name>
@@ -725,10 +721,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation>Bruk UPnP / NAT-PMP port-videresending fra min ruter</translation>
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Bruk ny port ved hver oppstart</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1193,10 +1185,6 @@
         <translation>Utgående porter (Min) [0: Deaktivert]:</translation>
     </message>
     <message>
-        <source>IP Address to report to trackers (requires restart):</source>
-        <translation>IP-adressen som skal rapporteres til sporere (krever omstart):</translation>
-    </message>
-    <message>
         <source>Recheck torrents on completion:</source>
         <translation>Gjennomsjekk torrenter på nytt ved fullførelse:</translation>
     </message>
@@ -1480,6 +1468,34 @@
         <source>%I: Info hash v1</source>
         <translation>%I: Info-hash v1</translation>
     </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation>IP-adressen som skal rapporteres til sporere (krever omstart):</translation>
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation>Sett lik 0 for å la systemet velge en port som ikke brukes</translation>
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation>Forebygging av forfalskede forespørsler på tjenersiden (SSRF):</translation>
+    </message>
+    <message>
+        <source>Disk queue size:</source>
+        <translation type="vanished">Køstørrelse på disk:</translation>
+    </message>
+    <message>
+        <source>Log performance warnings</source>
+        <translation type="vanished">Varsel om logg-ytelse</translation>
+    </message>
+    <message>
+        <source>Maximum outstanding requests to a single peer:</source>
+        <translation type="vanished">Største antall utestående forespørsler hos én likemann:</translation>
+    </message>
+    <message>
+        <source>Max active checking torrents:</source>
+        <translation type="vanished">Største antall aktive kontroller av torrenter:</translation>
+    </message>
 </context>
 <context>
     <name>PeerListWidget</name>
@@ -1552,12 +1568,12 @@
         <translation>Kopier IP:port</translation>
     </message>
     <message>
-        <source>Add a new peer...</source>
-        <translation>Legg til ny likemann …</translation>
-    </message>
-    <message>
         <source>Country/Region</source>
         <translation>Land/region</translation>
+    </message>
+    <message>
+        <source>Add peers...</source>
+        <translation>Legg til likemenn …</translation>
     </message>
 </context>
 <context>
@@ -1776,6 +1792,10 @@
         <source>N/A</source>
         <translation>I/T</translation>
     </message>
+    <message>
+        <source>Progress:</source>
+        <translation>Framdrift:</translation>
+    </message>
 </context>
 <context>
     <name>ScanFoldersModel</name>
@@ -1986,11 +2006,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Kontrollerer (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Kontrollerer (0)</translation>
     </message>
 </context>
 <context>
@@ -2248,8 +2268,12 @@
         <translation>Framdrift</translation>
     </message>
     <message>
+        <source>Total Size</source>
+        <translation type="vanished">Total størrelse</translation>
+    </message>
+    <message>
         <source>Size</source>
-        <translation>Størrelse</translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -2336,7 +2360,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[F] Laster ned metadata</translation>
     </message>
 </context>
 <context>
@@ -2744,10 +2768,6 @@
         <translation>Søk i:</translation>
     </message>
     <message>
-        <source>Results (showing</source>
-        <translation>Resultater (viser</translation>
-    </message>
-    <message>
         <source>Filter</source>
         <translation>Filter</translation>
     </message>
@@ -2778,6 +2798,14 @@
     <message>
         <source>to</source>
         <translation>til</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation>Resultater</translation>
+    </message>
+    <message>
+        <source>showing</source>
+        <translation>viser</translation>
     </message>
 </context>
 <context>
@@ -3005,16 +3033,28 @@
         <translation>Nasjonalitet:</translation>
     </message>
     <message>
-        <source>Author</source>
-        <translation>Opphavsperson</translation>
-    </message>
-    <message>
         <source>Software Used</source>
         <translation>Programvare som er brukt</translation>
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>DB-IPs fritt tilgjengelige IP-til-land-database brukes for å slå opp likemennenes opphavsland. Denne databasen er lisensiert under Creative Commons Navngivelse 4.0 Internasjonal.</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation>Opphavspersoner</translation>
+    </message>
+    <message>
+        <source>France</source>
+        <translation>Frankrike</translation>
+    </message>
+    <message>
+        <source>qBittorrent Mascot</source>
+        <translation>qBittorrent-maskot</translation>
+    </message>
+    <message>
+        <source>qBittorrent icon</source>
+        <translation>qBittorrent-ikon</translation>
     </message>
 </context>
 <context>

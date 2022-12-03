@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS language="bg" version="2.1">
+<TS version="2.1" language="bg">
 <context>
     <name>AboutDlg</name>
     <message>
@@ -144,10 +144,6 @@
         <translation>Не мога да съхраня предпочитанията за програмата, qBittorrent е вероятно недостъпен.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent на Freenode</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Неизвестен</translation>
     </message>
@@ -158,10 +154,6 @@
     <message>
         <source>Seeding time limit must be between 0 and 525600 minutes.</source>
         <translation>Ограничението за време на споделяне трябва да бъде между 0 и 525600 минути.</translation>
-    </message>
-    <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">Портът, който се използва за входящи връзки трябва да бъде между 1 и 65535.</translation>
     </message>
     <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
@@ -186,10 +178,6 @@
     <message>
         <source>Login</source>
         <translation>Вход</translation>
-    </message>
-    <message>
-        <source>Original authors</source>
-        <translation>Оригинален автори</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -370,7 +358,11 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
-        <translation type="unfinished" />
+        <translation>Портът използван за входящи връзки трябва да бъде между 0 и 65535.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
+        <translation>Оригинален автор</translation>
     </message>
 </context>
 <context>
@@ -580,6 +572,10 @@
         <source>RSS</source>
         <translation>RSS</translation>
     </message>
+    <message>
+        <source>Filters Sidebar</source>
+        <translation type="vanished">Странична лента на филтри</translation>
+    </message>
 </context>
 <context>
     <name>OptionsDialog</name>
@@ -726,10 +722,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation>Използване на UPnP / NAT-PMP порт за препращане от моя рутер</translation>
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Използване на различен порт при всяко стартиране</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1194,10 +1186,6 @@
         <translation>Изходен порт (Мин) [0: Изключен]:</translation>
     </message>
     <message>
-        <source>IP Address to report to trackers (requires restart):</source>
-        <translation>IP адрес за информиране на тракери (изисква рестарт):</translation>
-    </message>
-    <message>
         <source>Recheck torrents on completion:</source>
         <translation>Провери торентите при завършване:</translation>
     </message>
@@ -1481,6 +1469,34 @@
         <source>%I: Info hash v1</source>
         <translation>%I: Инфо хеш в1</translation>
     </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation>ИП адрес докладван до тракери (изисква рестарт):</translation>
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation>Задайте на 0, за да позволите на вашата система да избере неизползван порт</translation>
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation>Подправяне на заявка от страна на сървъра (SSRF) смекчаване</translation>
+    </message>
+    <message>
+        <source>Disk queue size:</source>
+        <translation type="vanished">Размер на опашката на диска:</translation>
+    </message>
+    <message>
+        <source>Log performance warnings</source>
+        <translation type="vanished">Вписвай предупреждения за производителност</translation>
+    </message>
+    <message>
+        <source>Maximum outstanding requests to a single peer:</source>
+        <translation type="vanished">Максимален брой неизпълнени заявки към един участник:</translation>
+    </message>
+    <message>
+        <source>Max active checking torrents:</source>
+        <translation type="vanished">Макс. активни проверки на торент:</translation>
+    </message>
 </context>
 <context>
     <name>PeerListWidget</name>
@@ -1553,12 +1569,12 @@
         <translation>Копирай IP:порт</translation>
     </message>
     <message>
-        <source>Add a new peer...</source>
-        <translation>Добави нов участник...</translation>
-    </message>
-    <message>
         <source>Country/Region</source>
         <translation>Държава/Област</translation>
+    </message>
+    <message>
+        <source>Add peers...</source>
+        <translation>Добави участници...</translation>
     </message>
 </context>
 <context>
@@ -1777,6 +1793,10 @@
         <source>N/A</source>
         <translation>Няма</translation>
     </message>
+    <message>
+        <source>Progress:</source>
+        <translation>Напредък:</translation>
+    </message>
 </context>
 <context>
     <name>ScanFoldersModel</name>
@@ -1987,11 +2007,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Проверяване (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Проверяване (0)</translation>
     </message>
 </context>
 <context>
@@ -2249,8 +2269,12 @@
         <translation>Напредък</translation>
     </message>
     <message>
+        <source>Total Size</source>
+        <translation type="vanished">Общ размер</translation>
+    </message>
+    <message>
         <source>Size</source>
-        <translation>Размер</translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -2337,7 +2361,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[П] Сваляне на метаданните</translation>
     </message>
 </context>
 <context>
@@ -2745,10 +2769,6 @@
         <translation>Търсене в:</translation>
     </message>
     <message>
-        <source>Results (showing</source>
-        <translation>Резултати (показва</translation>
-    </message>
-    <message>
         <source>Filter</source>
         <translation>Филтри</translation>
     </message>
@@ -2779,6 +2799,14 @@
     <message>
         <source>to</source>
         <translation>към</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation>Резултати</translation>
+    </message>
+    <message>
+        <source>showing</source>
+        <translation>показване</translation>
     </message>
 </context>
 <context>
@@ -3006,16 +3034,28 @@
         <translation>Държава:</translation>
     </message>
     <message>
-        <source>Author</source>
-        <translation>Автор</translation>
-    </message>
-    <message>
         <source>Software Used</source>
         <translation>Използван софтуер</translation>
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>Свободната IP to Country Lite база данни от DB-IP се използва за намиране на държавите на участници. Базата данни е лицензирана под Creative Commons Attribution 4.0 International License</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation>Автори</translation>
+    </message>
+    <message>
+        <source>France</source>
+        <translation>Франция</translation>
+    </message>
+    <message>
+        <source>qBittorrent Mascot</source>
+        <translation>qBittorrent Талисман</translation>
+    </message>
+    <message>
+        <source>qBittorrent icon</source>
+        <translation>qBittorrent икона</translation>
     </message>
 </context>
 <context>

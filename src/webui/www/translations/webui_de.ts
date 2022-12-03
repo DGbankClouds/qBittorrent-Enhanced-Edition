@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS language="de" version="2.1">
+<TS version="2.1" language="de">
 <context>
     <name>AboutDlg</name>
     <message>
@@ -144,10 +144,6 @@
         <translation>Programmeinstellungen konnten nicht gespeichert werden – qBittorrent ist vermutlich nicht erreichbar.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent auf Freenode</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Unbekannt</translation>
     </message>
@@ -158,10 +154,6 @@
     <message>
         <source>Seeding time limit must be between 0 and 525600 minutes.</source>
         <translation>Die Grenze für die Seedzeit muss zwischen 0 und 525600 Minuten liegen.</translation>
-    </message>
-    <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">Der Port für eingehende Verbindungen muss zwischen 1 und 65535 liegen.</translation>
     </message>
     <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
@@ -186,10 +178,6 @@
     <message>
         <source>Login</source>
         <translation>Anmelden</translation>
-    </message>
-    <message>
-        <source>Original authors</source>
-        <translation>Ursprüngliche Entwickler</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,7 +357,11 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
-        <translation type="unfinished" />
+        <translation>Der Port für eingehende Verbindungen muss zwischen 0 und 65535 liegen.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
+        <translation>Ursprünglicher Entwickler</translation>
     </message>
 </context>
 <context>
@@ -505,11 +497,11 @@
     </message>
     <message>
         <source>Move Up Queue</source>
-        <translation>Warteschlange nach oben</translation>
+        <translation>In der Warteschlange nach oben</translation>
     </message>
     <message>
         <source>Bottom of Queue</source>
-        <translation>Ende der Warteschlange</translation>
+        <translation>Ans Ende der Warteschlange</translation>
     </message>
     <message>
         <source>Move to the bottom of the queue</source>
@@ -517,11 +509,11 @@
     </message>
     <message>
         <source>Top of Queue</source>
-        <translation>Beginn der Warteschlange</translation>
+        <translation>An Anfang der Warteschlange</translation>
     </message>
     <message>
         <source>Move Down Queue</source>
-        <translation>Warteschlange nach unten</translation>
+        <translation>In der Warteschlange nach unten</translation>
     </message>
     <message>
         <source>Move down in the queue</source>
@@ -578,6 +570,10 @@
     <message>
         <source>RSS</source>
         <translation>RSS</translation>
+    </message>
+    <message>
+        <source>Filters Sidebar</source>
+        <translation type="vanished">Filter Seitenleiste</translation>
     </message>
 </context>
 <context>
@@ -727,10 +723,6 @@
         <translation>UPnP / NAT-PMP Portweiterleitung des Routers verwenden</translation>
     </message>
     <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Bei jedem Anwendungsstart einen anderen Port verwenden</translation>
-    </message>
-    <message>
         <source>Connections Limits</source>
         <translation>Verbindungsbeschränkungen</translation>
     </message>
@@ -826,7 +818,7 @@
     <message>
         <source>To:</source>
         <extracomment>time1 to time2</extracomment>
-        <translation>An:</translation>
+        <translation>Bis:</translation>
     </message>
     <message>
         <source>When:</source>
@@ -1193,10 +1185,6 @@
         <translation>Ausgehende Ports (Min) [0: Deaktiviert]:</translation>
     </message>
     <message>
-        <source>IP Address to report to trackers (requires restart):</source>
-        <translation>Diese IP Adresse bei Trackern angeben (Neustart benötigt):</translation>
-    </message>
-    <message>
         <source>Recheck torrents on completion:</source>
         <translation>Torrents nach Abschluss der Übertragung erneut prüfen:</translation>
     </message>
@@ -1480,6 +1468,34 @@
         <source>%I: Info hash v1</source>
         <translation>%I: Info-Hash V1</translation>
     </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation>Angegebene IP-Adresse bei Trackern (Neustart benötigt):</translation>
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation>Wert auf 0 setzen, damit das System einen unbenutzten Port wählen kann</translation>
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation>Schutz vor serverseitiger Anforderungsfälschung (SSRF):</translation>
+    </message>
+    <message>
+        <source>Disk queue size:</source>
+        <translation type="vanished">Größe der Festplatten-Warteschlange:</translation>
+    </message>
+    <message>
+        <source>Log performance warnings</source>
+        <translation type="vanished">Leistungswarnungen protokollieren</translation>
+    </message>
+    <message>
+        <source>Maximum outstanding requests to a single peer:</source>
+        <translation type="vanished">Maximal ausstehende Anfragen an einen einzelnen Peer:</translation>
+    </message>
+    <message>
+        <source>Max active checking torrents:</source>
+        <translation type="vanished">Max. Anzahl aktiver Prüfungen v. Torrents:</translation>
+    </message>
 </context>
 <context>
     <name>PeerListWidget</name>
@@ -1552,12 +1568,12 @@
         <translation>IP:port kopieren</translation>
     </message>
     <message>
-        <source>Add a new peer...</source>
-        <translation>Neuen Peer hinzufügen ...</translation>
-    </message>
-    <message>
         <source>Country/Region</source>
         <translation>Land/Region</translation>
+    </message>
+    <message>
+        <source>Add peers...</source>
+        <translation>Peers hinzufügen ...</translation>
     </message>
 </context>
 <context>
@@ -1674,7 +1690,7 @@
     </message>
     <message>
         <source>Share Ratio:</source>
-        <translation>Share Verhältnis:</translation>
+        <translation>Shareverhältnis:</translation>
     </message>
     <message>
         <source>Reannounce In:</source>
@@ -1775,6 +1791,10 @@
     <message>
         <source>N/A</source>
         <translation>N/V</translation>
+    </message>
+    <message>
+        <source>Progress:</source>
+        <translation>Fortschritt:</translation>
     </message>
 </context>
 <context>
@@ -1986,11 +2006,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Überprüfe (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Überprüfe (0)</translation>
     </message>
 </context>
 <context>
@@ -2248,8 +2268,12 @@
         <translation>Fortschritt</translation>
     </message>
     <message>
+        <source>Total Size</source>
+        <translation type="vanished">Gesamtgröße</translation>
+    </message>
+    <message>
         <source>Size</source>
-        <translation>Größe</translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -2336,7 +2360,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[F] Lade Metadaten</translation>
     </message>
 </context>
 <context>
@@ -2744,10 +2768,6 @@
         <translation>Suche in:</translation>
     </message>
     <message>
-        <source>Results (showing</source>
-        <translation>Ergebnisse (zeige</translation>
-    </message>
-    <message>
         <source>Filter</source>
         <translation>Filter</translation>
     </message>
@@ -2778,6 +2798,14 @@
     <message>
         <source>to</source>
         <translation>bis</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation>Ergebnisse</translation>
+    </message>
+    <message>
+        <source>showing</source>
+        <translation>angezeigt</translation>
     </message>
 </context>
 <context>
@@ -3005,16 +3033,28 @@
         <translation>Nationalität:</translation>
     </message>
     <message>
-        <source>Author</source>
-        <translation>Author</translation>
-    </message>
-    <message>
         <source>Software Used</source>
         <translation>Verwendete Software</translation>
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>Die kostenlose IP to Country Lite-Datenbank von DB-IP wird zum Auflösen der Länderinformationen der Peers verwendet. Die Datenbank ist lizenziert unter der Creative Commons Attribution 4.0 International License</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation>Autoren</translation>
+    </message>
+    <message>
+        <source>France</source>
+        <translation>Frankreich</translation>
+    </message>
+    <message>
+        <source>qBittorrent Mascot</source>
+        <translation>qBittorrent-Maskottchen</translation>
+    </message>
+    <message>
+        <source>qBittorrent icon</source>
+        <translation>qBittorrent-Icon</translation>
     </message>
 </context>
 <context>

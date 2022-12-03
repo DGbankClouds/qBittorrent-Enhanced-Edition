@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS language="ltg" version="2.1">
+<TS version="2.1" language="ltg">
 <context>
     <name>AboutDlg</name>
     <message>
@@ -28,7 +28,7 @@
     </message>
     <message>
         <source>Content layout:</source>
-        <translation type="unfinished" />
+        <translation>Satvora izlikaliejums:</translation>
     </message>
     <message>
         <source>Original</source>
@@ -144,10 +144,6 @@
         <translation>Nāisadevās saglabuot īstatejumus, varams, ka qBittorrent navā dasnēdzuoms.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent iz Freenode servera</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Nazynoms</translation>
     </message>
@@ -158,10 +154,6 @@
     <message>
         <source>Seeding time limit must be between 0 and 525600 minutes.</source>
         <translation>Nūsasyuteišonas laika rūbēžai juoir nu 0 da 525600 mynotu.</translation>
-    </message>
-    <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">Portam priekš atīmūšim salaidumim juoir nu 1 da 65535.</translation>
     </message>
     <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
@@ -186,10 +178,6 @@
     <message>
         <source>Login</source>
         <translation>Dasaslāgt</translation>
-    </message>
-    <message>
-        <source>Original authors</source>
-        <translation>Programmas radeituojs</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,7 +357,11 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
-        <translation type="unfinished" />
+        <translation>Portam priekš atīmūšim salaidumim juoir nu 0 leidz 65535.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
+        <translation>Programmas radeituojs</translation>
     </message>
 </context>
 <context>
@@ -1189,10 +1181,6 @@
         <translation>Izīmūšie porti (Min) [0: Nūgrīzts]</translation>
     </message>
     <message>
-        <source>IP Address to report to trackers (requires restart):</source>
-        <translation>IP adress kū paviesteit trakeriem (vajadzeigs restarts):</translation>
-    </message>
-    <message>
         <source>Recheck torrents on completion:</source>
         <translation>Atkuortuotai puorsavērt torrentus piec atsasyuteišonas dabeigšonas:</translation>
     </message>
@@ -1362,7 +1350,7 @@
     </message>
     <message>
         <source>Download REPACK/PROPER episodes</source>
-        <translation type="unfinished" />
+        <translation>Atsasyuteit REPACK/PROPER epizodes</translation>
     </message>
     <message>
         <source>Feeds refresh interval:</source>
@@ -1374,7 +1362,7 @@
     </message>
     <message>
         <source>Maximum number of articles per feed:</source>
-        <translation type="unfinished" />
+        <translation>Īrokstu skaits uz vīnu kanalu:</translation>
     </message>
     <message>
         <source>Max concurrent HTTP announces (requires libtorrent &gt;= 1.2.7):</source>
@@ -1418,7 +1406,7 @@
     </message>
     <message>
         <source>Peer connection protocol:</source>
-        <translation type="unfinished" />
+        <translation>Kūplītuotuoju salaidumu protokols:</translation>
     </message>
     <message>
         <source>Support internationalized domain name (IDN) (requires libtorrent &gt;= 1.2.12):</source>
@@ -1426,7 +1414,7 @@
     </message>
     <message>
         <source>Torrent content layout:</source>
-        <translation type="unfinished" />
+        <translation>Torrenta satvora izlikaliejums:</translation>
     </message>
     <message>
         <source>Create subfolder</source>
@@ -1475,6 +1463,18 @@
     <message>
         <source>%I: Info hash v1</source>
         <translation>%J: Maiseituojkods v1</translation>
+    </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation>IP adress kū paviesteit trakeriem (vajadzeigs restarts):</translation>
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -1548,12 +1548,12 @@
         <translation>Puorspīst IP i portu</translation>
     </message>
     <message>
-        <source>Add a new peer...</source>
-        <translation>Pīlikt jaunu kūplītuotuoju...</translation>
-    </message>
-    <message>
         <source>Country/Region</source>
         <translation>Vaļsteiba/Apgabaļs</translation>
+    </message>
+    <message>
+        <source>Add peers...</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -1602,7 +1602,7 @@
     </message>
     <message>
         <source>Content</source>
-        <translation>Turīņs</translation>
+        <translation>Satvors:</translation>
     </message>
 </context>
 <context>
@@ -1772,6 +1772,10 @@
         <source>N/A</source>
         <translation>Navā zynoms</translation>
     </message>
+    <message>
+        <source>Progress:</source>
+        <translation>Progress</translation>
+    </message>
 </context>
 <context>
     <name>ScanFoldersModel</name>
@@ -1859,7 +1863,7 @@
     </message>
     <message>
         <source>Queued I/O jobs:</source>
-        <translation type="unfinished" />
+        <translation>I/O darbeibys rindā:</translation>
     </message>
     <message>
         <source>Write cache overload:</source>
@@ -1871,7 +1875,7 @@
     </message>
     <message>
         <source>Total queued size:</source>
-        <translation type="unfinished" />
+        <translation>Kūpeigais rindas lelums:</translation>
     </message>
 </context>
 <context>
@@ -1982,11 +1986,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Puorbaud (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Puorbaud (0)</translation>
     </message>
 </context>
 <context>
@@ -2245,7 +2249,7 @@
     </message>
     <message>
         <source>Size</source>
-        <translation>Lelums</translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -2288,7 +2292,7 @@
     </message>
     <message>
         <source>Queued</source>
-        <translation type="unfinished" />
+        <translation>Rindā</translation>
     </message>
     <message>
         <source>Errored</source>
@@ -2312,7 +2316,7 @@
     </message>
     <message>
         <source>Queued for checking</source>
-        <translation type="unfinished" />
+        <translation>Rindā iz puorbaud</translation>
     </message>
     <message>
         <source>Downloading</source>
@@ -2320,7 +2324,7 @@
     </message>
     <message>
         <source>Checking resume data</source>
-        <translation type="unfinished" />
+        <translation>Puorbaud progresa datus</translation>
     </message>
     <message>
         <source>Stalled</source>
@@ -2332,7 +2336,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[P] Atsasyutē metadatus</translation>
     </message>
 </context>
 <context>
@@ -2740,10 +2744,6 @@
         <translation>Meklēt:</translation>
     </message>
     <message>
-        <source>Results (showing</source>
-        <translation>Rezultati (ruoda</translation>
-    </message>
-    <message>
         <source>Filter</source>
         <translation>Meklēt rezultatūs</translation>
     </message>
@@ -2774,6 +2774,14 @@
     <message>
         <source>to</source>
         <translation>leidz</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>showing</source>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -3001,15 +3009,27 @@
         <translation>Piļsuoneiba:</translation>
     </message>
     <message>
-        <source>Author</source>
-        <translation>Autori</translation>
-    </message>
-    <message>
         <source>Software Used</source>
         <translation>Programatura</translation>
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation>Autori</translation>
+    </message>
+    <message>
+        <source>France</source>
+        <translation>Praņceja</translation>
+    </message>
+    <message>
+        <source>qBittorrent Mascot</source>
+        <translation type="unfinished" />
+    </message>
+    <message>
+        <source>qBittorrent icon</source>
         <translation type="unfinished" />
     </message>
 </context>
@@ -3154,7 +3174,7 @@
     </message>
     <message>
         <source>Are you sure you want to delete the selected RSS feeds?</source>
-        <translation type="unfinished" />
+        <translation>Voi drūši zini, ka gribi nūteireit izalaseituos RSS kanalus?</translation>
     </message>
     <message>
         <source>New subscription...</source>
@@ -3395,7 +3415,7 @@ Formats: S01E01, 1x1, 2017.12.31 i 31.12.2017 (Datam škiramsimbola "." vītā v
     </message>
     <message>
         <source>Torrent content layout:</source>
-        <translation type="unfinished" />
+        <translation>Torrenta satvora izlikaliejums:</translation>
     </message>
     <message>
         <source>Create subfolder</source>

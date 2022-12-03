@@ -25,6 +25,12 @@ macro(qbt_common_config)
         $<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG_OUTPUT>
     )
 
+    if (CMAKE_SYSTEM_NAME STREQUAL "Darwin")
+        target_compile_definitions(qbt_common_cfg INTERFACE
+            _DARWIN_FEATURE_64_BIT_INODE
+        )
+    endif()
+
     if (CMAKE_SYSTEM_NAME STREQUAL "Windows")
         target_compile_definitions(qbt_common_cfg INTERFACE
             NTDDI_VERSION=0x06010000
@@ -90,4 +96,7 @@ macro(qbt_common_config)
         )
     endif()
 
+    if (LibtorrentRasterbar_VERSION VERSION_GREATER_EQUAL ${minLibtorrentVersion})
+        target_compile_definitions(qbt_common_cfg INTERFACE QBT_USES_LIBTORRENT2)
+    endif()
 endmacro(qbt_common_config)

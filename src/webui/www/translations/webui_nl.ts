@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS language="nl" version="2.1">
+<TS version="2.1" language="nl">
 <context>
     <name>AboutDlg</name>
     <message>
@@ -144,10 +144,6 @@
         <translation>Onmogelijk om programmavoorkeuren op te slaan, qBittorrent is waarschijnlijk onbereikbaar.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent op Freenode</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Onbekend</translation>
     </message>
@@ -158,10 +154,6 @@
     <message>
         <source>Seeding time limit must be between 0 and 525600 minutes.</source>
         <translation>Begrenzing voor seed-tijd moet liggen tussen 0 en 525 600 minuten.</translation>
-    </message>
-    <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">De poort gebruikt voor inkomende verbindingen moet liggen tussen 1 en 65535.</translation>
     </message>
     <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
@@ -186,10 +178,6 @@
     <message>
         <source>Login</source>
         <translation>Login</translation>
-    </message>
-    <message>
-        <source>Original authors</source>
-        <translation>Oorspronkelijke auteurs</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,7 +357,11 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
-        <translation type="unfinished" />
+        <translation>De poort gebruikt voor inkomende verbindingen moet liggen tussen 0 en 65535.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
+        <translation>Oorspronkelijke auteur</translation>
     </message>
 </context>
 <context>
@@ -579,6 +571,10 @@
         <source>RSS</source>
         <translation>RSS</translation>
     </message>
+    <message>
+        <source>Filters Sidebar</source>
+        <translation type="vanished">Filter-zijbalk</translation>
+    </message>
 </context>
 <context>
     <name>OptionsDialog</name>
@@ -725,10 +721,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation>UPnP/NAT-PMP port forwarding van mijn router gebruiken</translation>
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Bij elke opstart een andere poort gebruiken</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1193,10 +1185,6 @@
         <translation>Uitgaande poorten (min) [0: uitgeschakeld]:</translation>
     </message>
     <message>
-        <source>IP Address to report to trackers (requires restart):</source>
-        <translation>IP-adres om te melden aan trackers (opnieuw opstarten vereist):</translation>
-    </message>
-    <message>
         <source>Recheck torrents on completion:</source>
         <translation>Torrents opnieuw controleren bij voltooiing:</translation>
     </message>
@@ -1480,6 +1468,34 @@
         <source>%I: Info hash v1</source>
         <translation>%J: Info-hash v1</translation>
     </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation>IP-adres gemeld aan trackers (opnieuw starten vereist):</translation>
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation>Instellen op 0 om uw systeem een ongebruikte poort te laten kiezen</translation>
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation>Beperking van verzoekvervalsing aan de serverzijde (SSRF):</translation>
+    </message>
+    <message>
+        <source>Disk queue size:</source>
+        <translation type="vanished">Grootte van wachtrij op schijf:</translation>
+    </message>
+    <message>
+        <source>Log performance warnings</source>
+        <translation type="vanished">Prestatiewaarschuwingen loggen</translation>
+    </message>
+    <message>
+        <source>Maximum outstanding requests to a single peer:</source>
+        <translation type="vanished">Maximum aantal openstaande verzoeken aan een enkele peer:</translation>
+    </message>
+    <message>
+        <source>Max active checking torrents:</source>
+        <translation type="vanished">Maximum aantal actieve controlerende torrents:</translation>
+    </message>
 </context>
 <context>
     <name>PeerListWidget</name>
@@ -1552,12 +1568,12 @@
         <translation>IP:poort kopiëren</translation>
     </message>
     <message>
-        <source>Add a new peer...</source>
-        <translation>Nieuwe peer toevoegen...</translation>
-    </message>
-    <message>
         <source>Country/Region</source>
         <translation>Land/regio</translation>
+    </message>
+    <message>
+        <source>Add peers...</source>
+        <translation>Peers toevoegen...</translation>
     </message>
 </context>
 <context>
@@ -1776,6 +1792,10 @@
         <source>N/A</source>
         <translation>N/B</translation>
     </message>
+    <message>
+        <source>Progress:</source>
+        <translation>Voortgang:</translation>
+    </message>
 </context>
 <context>
     <name>ScanFoldersModel</name>
@@ -1986,11 +2006,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Controleren (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Controleren (0)</translation>
     </message>
 </context>
 <context>
@@ -2248,8 +2268,12 @@
         <translation>Voortgang</translation>
     </message>
     <message>
+        <source>Total Size</source>
+        <translation type="vanished">Totale grootte</translation>
+    </message>
+    <message>
         <source>Size</source>
-        <translation>Grootte</translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -2336,7 +2360,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[F] metadata downloaden</translation>
     </message>
 </context>
 <context>
@@ -2744,10 +2768,6 @@
         <translation>Zoeken in:</translation>
     </message>
     <message>
-        <source>Results (showing</source>
-        <translation>Resultaten (</translation>
-    </message>
-    <message>
         <source>Filter</source>
         <translation>Filter</translation>
     </message>
@@ -2778,6 +2798,14 @@
     <message>
         <source>to</source>
         <translation>tot</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation>Resultaten</translation>
+    </message>
+    <message>
+        <source>showing</source>
+        <translation>weergeven van</translation>
     </message>
 </context>
 <context>
@@ -3005,16 +3033,28 @@
         <translation>Nationaliteit:</translation>
     </message>
     <message>
-        <source>Author</source>
-        <translation>Auteur</translation>
-    </message>
-    <message>
         <source>Software Used</source>
         <translation>Gebruikte software</translation>
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>De gratis IP to Country Lite database van DB-IP wordt gebruikt voor het oplossen van de landen van peers. De database is gelicenseerd onder de Creative Commons Attribution 4.0 International License.</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation>Auteurs</translation>
+    </message>
+    <message>
+        <source>France</source>
+        <translation>Frankrijk</translation>
+    </message>
+    <message>
+        <source>qBittorrent Mascot</source>
+        <translation>qBittorrent-mascotte</translation>
+    </message>
+    <message>
+        <source>qBittorrent icon</source>
+        <translation>qBittorrent-pictogram</translation>
     </message>
 </context>
 <context>

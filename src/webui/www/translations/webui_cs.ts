@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS language="cs" version="2.1">
+<TS version="2.1" language="cs">
 <context>
     <name>AboutDlg</name>
     <message>
@@ -144,10 +144,6 @@
         <translation>Nelze uložit nastavení programu, qBittorrent klient je pravděpodobně nedostupný.</translation>
     </message>
     <message>
-        <source>IRC: #qbittorrent on Freenode</source>
-        <translation>IRC: #qbittorrent na Freenode</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Neznámý</translation>
     </message>
@@ -158,10 +154,6 @@
     <message>
         <source>Seeding time limit must be between 0 and 525600 minutes.</source>
         <translation>Doba seedování musí být v rozsahu od 0 do 525600 minut.</translation>
-    </message>
-    <message>
-        <source>The port used for incoming connections must be between 1 and 65535.</source>
-        <translation type="vanished">Port příchozích spojení musí být mezi 1 a 65535.</translation>
     </message>
     <message>
         <source>The port used for the Web UI must be between 1 and 65535.</source>
@@ -186,10 +178,6 @@
     <message>
         <source>Login</source>
         <translation>Přihlášení</translation>
-    </message>
-    <message>
-        <source>Original authors</source>
-        <translation>Původní autoři</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -369,7 +357,11 @@
     </message>
     <message>
         <source>The port used for incoming connections must be between 0 and 65535.</source>
-        <translation type="unfinished" />
+        <translation>Port příchozích spojení musí být mezi 0 a 65535.</translation>
+    </message>
+    <message>
+        <source>Original author</source>
+        <translation>Původní autor</translation>
     </message>
 </context>
 <context>
@@ -579,6 +571,10 @@
         <source>RSS</source>
         <translation>RSS</translation>
     </message>
+    <message>
+        <source>Filters Sidebar</source>
+        <translation type="vanished">Filtry boční panel</translation>
+    </message>
 </context>
 <context>
     <name>OptionsDialog</name>
@@ -725,10 +721,6 @@
     <message>
         <source>Use UPnP / NAT-PMP port forwarding from my router</source>
         <translation>Použít přesměrování portů UPnP / NAT-PMP z mého routeru</translation>
-    </message>
-    <message>
-        <source>Use different port on each startup</source>
-        <translation type="vanished">Při každém spuštění použít náhodné porty</translation>
     </message>
     <message>
         <source>Connections Limits</source>
@@ -1193,10 +1185,6 @@
         <translation>Odchozí porty (Min) [0: Vypnuto]</translation>
     </message>
     <message>
-        <source>IP Address to report to trackers (requires restart):</source>
-        <translation>IP adresa hlášená trackerům (vyžaduje restart):</translation>
-    </message>
-    <message>
         <source>Recheck torrents on completion:</source>
         <translation>Při dokončení překontrolovat torrenty:</translation>
     </message>
@@ -1480,6 +1468,34 @@
         <source>%I: Info hash v1</source>
         <translation>%I: Info hash v1</translation>
     </message>
+    <message>
+        <source>IP address reported to trackers (requires restart):</source>
+        <translation>IP adresa hlášená trackerům (vyžaduje restart)</translation>
+    </message>
+    <message>
+        <source>Set to 0 to let your system pick an unused port</source>
+        <translation>Nastav na 0 a systém vybere nevyužitý port</translation>
+    </message>
+    <message>
+        <source>Server-side request forgery (SSRF) mitigation:</source>
+        <translation>Zamezení falšování požadavků na straně serveru (SSRF):</translation>
+    </message>
+    <message>
+        <source>Disk queue size:</source>
+        <translation type="vanished">Velikost diskové fronty:</translation>
+    </message>
+    <message>
+        <source>Log performance warnings</source>
+        <translation type="vanished">Log výkonnostních varování</translation>
+    </message>
+    <message>
+        <source>Maximum outstanding requests to a single peer:</source>
+        <translation type="vanished">Maximum nezpracovaných požadavků na jeden peer:</translation>
+    </message>
+    <message>
+        <source>Max active checking torrents:</source>
+        <translation type="vanished">Maximum souběžně kontrolovaných torrentů:</translation>
+    </message>
 </context>
 <context>
     <name>PeerListWidget</name>
@@ -1552,12 +1568,12 @@
         <translation>Kopírovat IP:port</translation>
     </message>
     <message>
-        <source>Add a new peer...</source>
-        <translation>Přidat nový peer...</translation>
-    </message>
-    <message>
         <source>Country/Region</source>
         <translation>Země/Oblast</translation>
+    </message>
+    <message>
+        <source>Add peers...</source>
+        <translation>Přidání peerů...</translation>
     </message>
 </context>
 <context>
@@ -1776,6 +1792,10 @@
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
+    <message>
+        <source>Progress:</source>
+        <translation>Průběh:</translation>
+    </message>
 </context>
 <context>
     <name>ScanFoldersModel</name>
@@ -1986,11 +2006,11 @@
     </message>
     <message>
         <source>Checking (%1)</source>
-        <translation type="unfinished" />
+        <translation>Kontroluji (%1)</translation>
     </message>
     <message>
         <source>Checking (0)</source>
-        <translation type="unfinished" />
+        <translation>Kontroluji (0)</translation>
     </message>
 </context>
 <context>
@@ -2248,8 +2268,12 @@
         <translation>Průběh</translation>
     </message>
     <message>
+        <source>Total Size</source>
+        <translation type="vanished">Celková velikost</translation>
+    </message>
+    <message>
         <source>Size</source>
-        <translation>Velikost</translation>
+        <translation type="unfinished" />
     </message>
 </context>
 <context>
@@ -2336,7 +2360,7 @@
     </message>
     <message>
         <source>[F] Downloading metadata</source>
-        <translation type="unfinished" />
+        <translation>[F] Stahuji metadata</translation>
     </message>
 </context>
 <context>
@@ -2744,10 +2768,6 @@
         <translation>Hledat v:</translation>
     </message>
     <message>
-        <source>Results (showing</source>
-        <translation>Výsledky (zobrazuji</translation>
-    </message>
-    <message>
         <source>Filter</source>
         <translation>Filtr</translation>
     </message>
@@ -2778,6 +2798,14 @@
     <message>
         <source>to</source>
         <translation>do</translation>
+    </message>
+    <message>
+        <source>Results</source>
+        <translation>Výsledky</translation>
+    </message>
+    <message>
+        <source>showing</source>
+        <translation>zobrazeno</translation>
     </message>
 </context>
 <context>
@@ -3005,16 +3033,28 @@
         <translation>Národnost:</translation>
     </message>
     <message>
-        <source>Author</source>
-        <translation>Autor</translation>
-    </message>
-    <message>
         <source>Software Used</source>
         <translation>Použitý software</translation>
     </message>
     <message>
         <source>The free IP to Country Lite database by DB-IP is used for resolving the countries of peers. The database is licensed under the Creative Commons Attribution 4.0 International License</source>
         <translation>Bezplatná databáze IP to Country Lite od DB-IP se používá k řešení zemí peerů. Databáze je licencována podle mezinárodní licence Creative Commons Attribution 4.0</translation>
+    </message>
+    <message>
+        <source>Authors</source>
+        <translation>Autoři</translation>
+    </message>
+    <message>
+        <source>France</source>
+        <translation>Francie</translation>
+    </message>
+    <message>
+        <source>qBittorrent Mascot</source>
+        <translation>qBittorrent Mascot</translation>
+    </message>
+    <message>
+        <source>qBittorrent icon</source>
+        <translation>ikona qBittorrent</translation>
     </message>
 </context>
 <context>
